@@ -1,0 +1,10 @@
+server:
+  port: 1111
+  
+spring:  h2:    console:      enabled: true  application:    name: STOCK-PRICE-SERVICE  datasource:    url: jdbc:h2:mem:stock_price
+eureka:  client:    register-with-eureka: true
+    fetch-registry: true 
+    
+    
+    
+  
