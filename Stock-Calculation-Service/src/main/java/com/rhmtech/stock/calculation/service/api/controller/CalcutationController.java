@@ -12,7 +12,6 @@ import com.rhmtech.stock.calculation.service.api.client.PriceClient;
 import com.rhmtech.stock.calculation.service.api.model.StockPrice;
 
 @RestController
-@RequestMapping("/calc")
 public class CalcutationController {
 	@Autowired
 	private PriceClient client;

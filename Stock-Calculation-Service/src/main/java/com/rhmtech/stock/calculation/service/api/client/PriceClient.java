@@ -9,7 +9,7 @@ import com.rhmtech.stock.calculation.service.api.model.StockPrice;
 
 @FeignClient(name = "STOCK-PRICE-SERVICE")
 public interface PriceClient {
-	@GetMapping(value = "/price/stockprice/{cname}")
+	@GetMapping(value = "/stockprice/{cname}")
 	public ResponseEntity<StockPrice> invockePrice(@PathVariable("cname") String cname);
 
 }

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rhmtech.gateway</groupId>
-	<artifactId>Stock-api-gateway</artifactId>
+	<artifactId>Api-Gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Stock-api-gateway</name>
+	<name>Api-Gateway</name>
 	<description>zuul api gateway</description>
 	<properties>
 		<java.version>1.8</java.version>

@@ -14,7 +14,6 @@ import com.rhmtech.stock.price.service.api.entities.StockPrice;
 import com.rhmtech.stock.price.service.api.service.StockService;
 
 @RestController
-@RequestMapping("/price")
 public class PriceController {
 	@Autowired
 	private StockService service;
