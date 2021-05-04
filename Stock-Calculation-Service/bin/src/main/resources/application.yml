@@ -1,0 +1,9 @@
+server:
+  port: 2222
+spring:  application:    name: STOCK-CALCULATION-SERVICE
+eureka:  client:    register-with-eureka: true
+    fetch-registry: true 
+    
+    
+    
+  
